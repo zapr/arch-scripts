@@ -1,0 +1,9 @@
+[Match]
+Name=en*
+
+[Network]
+DHCP=ipv4
+IPv6PrivacyExtensions=true
+
+[DHCPv4]
+UseDomains=true
