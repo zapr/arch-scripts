@@ -10,5 +10,4 @@ bootctl update
 
 systemctl enable systemd-networkd
 systemctl enable systemd-resolved
-ln -sf /etc/resolv.conf /run/systemd/resolve/stud-resolv.conf
-
+ln -sf /run/systemd/resolve/stud-resolv.conf /etc/resolv.conf
